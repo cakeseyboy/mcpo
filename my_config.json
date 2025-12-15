@@ -4,10 +4,6 @@
       "command": "npx",
       "args": ["-y", "exa-mcp-server"]
     },
-    "brave-search": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-brave-search"]
-    },
     "fetch": {
       "command": "uvx",
       "args": ["mcp-server-fetch"]
@@ -15,6 +11,10 @@
     "time": {
       "command": "uvx",
       "args": ["mcp-server-time"]
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"]
     }
   }
 }
