@@ -2,10 +2,11 @@
   "mcpServers": {
     "exa-search": {
       "command": "npx",
-      "args": ["-y", "exa-mcp-server"],
-      "env": {
-        "EXA_API_KEY": "ProcessEnv:EXA_API_KEY"
-      }
+      "args": ["-y", "exa-mcp-server"]
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"]
     },
     "fetch": {
       "command": "uvx",
@@ -14,13 +15,6 @@
     "time": {
       "command": "uvx",
       "args": ["mcp-server-time"]
-    },
-    "brave-search": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
-      "env": {
-        "BRAVE_API_KEY": "ProcessEnv:BRAVE_API_KEY"
-      }
     }
   }
 }
